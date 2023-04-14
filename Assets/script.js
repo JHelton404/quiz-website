@@ -1,4 +1,4 @@
-// Quiz Answer Key: 1-C, 2-B, 3-C, 4-D, 5-B, 6-C, 7-A, 8-C, 9-D, 10-D, 11-B, 12-A
+// Answer Key for Testing Purposes: A, C, B, C, D
 
 // Global Variables
 // Possible Screens
@@ -28,20 +28,24 @@ var usernameInput
 // Question Object Array
 var questions = [{
   question: "1. What does the Earth look like?",
-  answers: ['answerA', 'answerB', 'answerC', 'answerD'],
-  correct: "answerA"
+  answers: ['A. Blue', 'B. Brown', 'C. Green', 'D. Red'],
+  correct: "A. Blue"
 }, {
   question: "2. What does the Earth sound like?",
-  answers: ['answerA', 'answerB', 'answerC', 'answerD'],
-  correct: "answerA"
+  answers: ['A. Windy', 'B. Rainy', 'C. Noisy', 'D. Huh?'],
+  correct: "C. Noisy"
 }, {
   question: "3. What does the Earth feel like?",
-  answers: ['answerA', 'answerB', 'answerC', 'answerD'],
-  correct: "answerA"
+  answers: ['A. Round', 'B. Smooth', 'C. Rough', 'D. Square'],
+  correct: "B. Smooth"
 }, {
-  question: "4. What does the Earth taste like?",
-  answers: ['answerA', 'answerB', 'answerC', 'answerD'],
-  correct: "answerA"
+  question: "4. What does the Earth smell like?",
+  answers: ['A. Grass', 'B. Salt Water', 'C. Sushi', 'D. Fast Food'],
+  correct: "C. Sushi"
+}, {
+  question: "5. What does the Earth taste like?",
+  answers: ['A. Wet', 'B. Eww', 'C. Dirt', 'D. Yum'],
+  correct: "D. Yum"
 }]
 
 

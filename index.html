@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <title>Web Dev Quiz!</title>
+</head>
+<body>
+  <div class="Box">
+    <div id="welcomePage" class="visible">
+      <h1>
+        Welcome to the quiz!
+        <button class = "quizStart">Start the Quiz!</button>
+      </h1>
+    </div>
+    <div id="question" >
+      <h2 id="countdownDisplay" style="text-align:center"></h2>
+      <h2 id="firstQuestion"></h2>
+      <ol id="nextQuestion">
+        <button id ="answerA"></button>
+        <button id ="answerB"></button>
+        <button id ="answerC"></button>
+        <button id ="answerD"></button>
+      </ol>
+    </div>
+    <div id="endScreen">
+      <h3 id = "victoryDisplay"></h3>
+      <h4 id = "score"></h4>
+      <div id = "winSubmit">
+        <h2>Congratulations!</h2>
+        <input id="initials">
+        <button id="submitScore">submit</button>
+      </div>
+      <div id = "loserCorner">
+        <h2>Better Luck Next Time!</h2>
+      </div>
+      <button id="retryBtn">Try Again?</button>
+    </div>
+  </div>
+  <aside></aside>
+</body>
+<script src="./Assets/script.js"></script>
+</html>
